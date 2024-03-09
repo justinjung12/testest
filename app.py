@@ -96,4 +96,4 @@ def admin():
             result['time'] = current_time.strftime("%H:%M")
             news.append(result)
             return 'success'
-app.run(debug=True)
+app.run()
