@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect,jsonify
 from datetime import datetime
+app = Flask(__name__)
 
 
 #맨 앞은 가장 처음 올라온 뉴스 뒤로 갈수록 오래된 뉴스
